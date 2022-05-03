@@ -1,0 +1,71 @@
+.auth-body {
+    background: #eeeeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.paper-auth-bg {
+    margin-top: 20rem;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 25%;
+    /* text-align: center; */
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+.auth-text-field {
+    padding-top: 7%;
+    padding-bottom: 1%;
+}
+
+.login-text {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.login-button {
+    background-color: #1990eb;
+    color: white;
+    border-radius: 10rem;
+    border: none;
+    padding: 0.5rem 5rem 0.5rem 5rem;
+    font-size: 1.0rem;
+    margin-top: 7%;
+    margin-bottom: 2%;
+    transition: background-color 1000ms, padding 500ms, font-size 500ms;
+}
+
+.login-button:hover{
+    background-color: #4cb6fc;
+    padding: 0.5rem 5.5rem 0.5rem 5.5rem;
+}
+
+@media only screen and (max-width: 900px) {
+    .paper-auth-bg {
+        margin-top: 20rem;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        width: 50%;
+        /* text-align: center; */
+        padding-left: 4%;
+        padding-right: 4%;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .paper-auth-bg {
+        margin-top: 20rem;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        width: 75%;
+        /* text-align: center; */
+        padding-left: 8%;
+        padding-right: 8%;
+        text-align: center;
+    }
+}

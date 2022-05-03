@@ -1,0 +1,18 @@
+.spinner-container {
+    margin: 10rem auto;
+    text-align: center;
+    color:#2A78B5;
+}
+
+.spinner-img {
+    animation: rotation 500ms infinite linear;
+}
+  
+@keyframes rotation {
+from {
+    transform: rotate(0deg);
+}
+to {
+    transform: rotate(359deg);
+}
+}

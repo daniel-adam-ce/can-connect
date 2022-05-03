@@ -1,0 +1,55 @@
+
+.raw-body {
+    padding-top: 5rem;
+    background: #eeeeee;
+    color: black;
+}
+
+
+.hex-button {
+    padding-top: 1rem;
+    padding-left: 35vw;
+    padding-right: 1vw;
+    padding-bottom: 1vw;
+}
+
+.dropdown {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 2pt;
+}
+
+.device-dropdown {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.vehicle-dropdown {
+    padding-left: 1rem;
+}
+
+.pagination {
+    margin-top: 2%;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #eeeeee;
+    text-align: left;
+    padding: 8px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.sort-button {
+    border: none;
+    background-color: white;
+    font-weight:600;
+}
